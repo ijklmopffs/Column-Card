@@ -1,12 +1,10 @@
 body {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Big Shoulders Display", cursive;
   font-family: "Lexend Deca", sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 95vh;
   align-items: center;
   justify-content: center;
   background-color: hsl(0, 0%, 95%);
@@ -14,14 +12,13 @@ body {
 }
 
 .card {
-  width: 800px;
   display: flex;
+  margin-block-end: 5px;
 }
 .first {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   background-color: hsl(31, 77%, 52%);
-  width: 24%;
   padding: 40px;
 }
 h1 {
@@ -37,20 +34,17 @@ p {
 .second {
   padding: 40px;
   background-color: hsl(184, 100%, 22%);
-  width: 27%;
 }
 .third {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: hsl(179, 100%, 13%);
-  width: 26%;
   padding: 40px;
 }
 button {
   background-color: hsl(0, 0%, 95%);
   border-radius: 20px;
   padding: 12px 20px;
-  margin: 2px 4px;
   border: none;
   font-family: "Lexend Deca";
   font-weight: bolder;
@@ -73,7 +67,7 @@ button {
 .third button {
   color: hsl(179, 100%, 13%);
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
   .card {
     width: 100%;
     flex-direction: column;
